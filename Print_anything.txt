@@ -1,0 +1,470 @@
+import java.util.*;
+class Print_Anything
+{
+    public static void main()
+    {
+      Scanner sc=new Scanner(System.in);
+      System.out.println("Enter the sentence");
+      String s=sc.nextLine();
+      s=s.toUpperCase();
+      char ch;
+      for(int z=0;z<s.length();z++)
+      {
+        ch=s.charAt(z);
+        switch(ch)
+        {
+            case 'A':
+                System.out.println();
+        for(int i=1;i<=9;i++)
+        {
+            for(int j=1;j<=11;j++)
+            {
+                if(i+j==7||j-i==5)
+                {
+                    for(long d=1;d<=199999999;d++);
+                    System.out.print("*");
+                }
+                else if(i==4&&(j>2&&j<10))
+                {
+                    for(long d=1;d<=199999999;d++);
+                    System.out.print("*");
+                }
+                else
+                System.out.print(" ");
+            }
+            System.out.println();
+        }
+        break;
+        case 'B':
+            System.out.println();
+        for(int i=1;i<=9;i++)
+        {
+            for(int j=1;j<=11;j++)
+            {
+                if(j==1||j==11||i==1||i==5||i==9)
+                {
+                    for(long d=1;d<=199999999;d++);
+                    System.out.print("*");
+                }
+                else
+                System.out.print(" ");
+            }
+            System.out.println();
+        }
+        break;
+        case 'C':
+            System.out.println();
+        for(int i=1;i<=9;i++)
+        {
+            for(int j=1;j<=11;j++)
+            {
+                if(i==1||i==9||j==1)
+                {
+                    for(long d=1;d<=199999999;d++);
+                    System.out.print("*");
+                }
+                else
+                System.out.print(" ");
+            }
+            System.out.println();
+        }
+        break;
+        case 'D':
+            System.out.println();
+        for(int i=1;i<=9;i++)
+        {
+            for(int j=1;j<=11;j++)
+            {
+                if(j==1||(i==1&&j<=7)||(i==9&&j<=7)||(j-i==6)||(i+j==16))
+                {
+                    for(long d=1;d<=199999999;d++);
+                    System.out.print("*");
+                }
+                else
+                System.out.print(" ");
+            }
+            System.out.println();
+        }
+        break;
+        case 'E':
+            System.out.println();
+        for(int i=1;i<=9;i++)
+        {
+            for(int j=1;j<=11;j++)
+            {
+                if(i==1||i==9||i==5||j==1)
+                {
+                    for(long d=1;d<=199999999;d++);
+                    System.out.print("*");
+                }
+                else
+                System.out.print(" ");
+            }
+            System.out.println();
+        }
+        break;
+        case 'F':
+            System.out.println();
+        for(int i=1;i<=9;i++)
+        {
+            for(int j=1;j<=11;j++)
+            {
+                if(i==1||i==4||j==1)
+                {
+                    for(long d=1;d<=199999999;d++);
+                    System.out.print("*");
+                }
+                else
+                System.out.print(" ");
+            }
+            System.out.println();
+        }
+        break;
+        case 'G':
+            System.out.println();
+        for(int i=1;i<=9;i++)
+        {
+            for(int j=1;j<=11;j++)
+            {
+                if(i==1||i==9||j==1||(i>=5&&j==11)||(i==5&&j>=7))
+                {
+                    for(long d=1;d<=199999999;d++);
+                    System.out.print("*");
+                }
+                else
+                System.out.print(" ");
+            }
+            System.out.println();
+        }
+        break;
+        case 'H':
+            System.out.println();
+        for(int i=1;i<=9;i++)
+        {
+            for(int j=1;j<=11;j++)
+            {
+                if(j==1||j==11||i==5)
+                {
+                    for(long d=1;d<=199999999;d++);
+                    System.out.print("*");
+                }
+                else
+                System.out.print(" ");
+            }
+            System.out.println();
+        }
+        break;
+        case 'I':
+            System.out.println();
+        for(int i=1;i<=9;i++)
+        {
+            for(int j=1;j<=11;j++)
+            {
+                if(i==1||j==6||i==9)
+                {
+                    for(long d=1;d<=199999999;d++);
+                    System.out.print("*");
+                }
+                else
+                System.out.print(" ");
+            }
+            System.out.println();
+        }
+        break;
+        case 'J':
+            System.out.println();
+        for(int i=1;i<=9;i++)
+        {
+            for(int j=1;j<=11;j++)
+            {
+                if(i==1||j==6||(i>=6&&j==1)||(i==9&&j<=6))
+                {
+                    for(long d=1;d<=199999999;d++);
+                    System.out.print("*");
+                }
+                else
+                System.out.print(" ");
+            }
+            System.out.println();
+            
+        }
+        break;
+        case 'K':
+            System.out.println();
+        for(int i=1;i<=11;i++)
+        {
+            for(int j=1;j<=11;j++)
+            {
+                if(j==1||i+j==8||i-j==4)
+                {
+                    for(long d=1;d<=199999999;d++);
+                    System.out.print("*");
+                }
+                else
+                System.out.print(" ");
+            }
+            System.out.println();
+        }
+        break;
+        case 'L':
+            System.out.println();
+        for(int i=1;i<=9;i++)
+        {
+            for(int j=1;j<=11;j++)
+            {
+                if(i==9||j==1)
+                {
+                    for(long d=1;d<=199999999;d++);
+                    System.out.print("*");
+                }
+                else
+                System.out.print(" ");
+            }
+            System.out.println();
+        }
+        break;
+        case 'M':
+        System.out.println();
+        for(int i=1;i<=9;i++)
+        {
+            for(int j=1;j<=11;j++)
+            {
+                if(j==1||j==11||(i==j&&i<=5)||(i+j==12&&i<=5)||(i==5&&j==6))
+                {
+                    for(long d=1;d<=199999999;d++);
+                    System.out.print("*");
+                }
+                else
+                System.out.print(" ");
+            }
+            System.out.println();
+        }
+        break;
+        case 'N':
+        System.out.println();
+        for(int i=1;i<=9;i++)
+        {
+            for(int j=1;j<=11;j++)
+            {
+                if(j==1||j==11||i==j)
+                {
+                    for(long d=1;d<=199999999;d++);
+                    System.out.print("*");
+                }
+                else
+                System.out.print(" ");
+            }
+            System.out.println();
+        }
+        break;
+        case 'O':
+        System.out.println();
+        for(int i=1;i<=9;i++)
+        {
+            for(int j=1;j<=11;j++)
+            {
+                if(i==1||j==1||j==11||i==9)
+                {
+                    for(long d=1;d<=199999999;d++);
+                    System.out.print("*");
+                }
+                else
+                System.out.print(" ");
+            }
+            System.out.println();
+        }
+        break;
+        case 'P':
+            System.out.println();
+        for(int i=1;i<=9;i++)
+        {
+            for(int j=1;j<=11;j++)
+            {
+                if(j==1||i==1||i==5||(j==11&&(i==2||i==3||i==4)))
+                {
+                    for(long d=1;d<=199999999;d++);
+                    System.out.print("*");
+                }
+                else
+                System.out.print(" ");
+            }
+            System.out.println();
+        }
+        break;
+        case 'Q':
+            System.out.println();
+        for(int i=1;i<=9;i++)
+        {
+            for(int j=1;j<=11;j++)
+            {
+                if(i==1||i==6||(i<=6&&(j==1||j==11))||(j-i==2&&i>=6))
+                {
+                    for(long d=1;d<=199999999;d++);
+                    System.out.print("*");
+                }
+                else
+                System.out.print(" ");
+            }
+            System.out.println();
+        }
+        break;
+        case 'R':
+            System.out.println();
+        for(int i=1;i<=9;i++)
+        {
+            for(int j=1;j<=11;j++)
+            {
+                if(i==1||i==4||j==1||i-j==3||(j==11&&(i==2||i==3||i==4)))
+                {
+                    for(long d=1;d<=199999999;d++);
+                    System.out.print("*");
+                }
+                else
+                System.out.print(" ");
+            }
+            System.out.println();
+        }
+        break;
+        case 'S':
+            System.out.println();
+        for(int i=1;i<=9;i++)
+        {
+            for(int j=1;j<=11;j++)
+            {
+                if(i==1||i==5||i==9||(j==1&&(i<=5)||(j==11&&(i>=5))))
+                {
+                    for(long d=1;d<=199999999;d++);
+                    System.out.print("*");
+                }
+                else
+                System.out.print(" ");
+            }
+            System.out.println();
+        }
+        break;
+        case 'T':
+            System.out.println();
+        for(int i=1;i<=9;i++)
+        {
+            for(int j=1;j<=11;j++)
+            {
+                if(i==1||j==6)
+                {
+                    for(long d=1;d<=199999999;d++);
+                    System.out.print("*");
+                }
+                else
+                System.out.print(" ");
+            }
+            System.out.println();
+        }
+        break;
+        case 'U':
+            System.out.println();
+        for(int i=1;i<=9;i++)
+        {
+            for(int j=1;j<=11;j++)
+            {
+                if(j==1||j==11||i==9)
+                {
+                    for(long d=1;d<=199999999;d++);
+                    System.out.print("*");
+                }
+                else
+                System.out.print(" ");
+            }
+            System.out.println();
+        }
+        break;
+        case 'V':
+        System.out.println();
+        for(int i=1;i<=9;i++)
+        {
+            for(int j=1;j<=11;j++)
+            {
+                if((i<=4&&(j==1||j==11)||i-j==3||i+j==15))
+                {
+                    for(long d=1;d<=199999999;d++);
+                    System.out.print("*");
+                }
+                else
+                System.out.print(" ");
+            }
+            System.out.println();
+        }
+        break;
+        case 'W':
+        System.out.println();
+        for(int i=1;i<=9;i++)
+        {
+            for(int j=1;j<=11;j++)
+            {
+                if(j==1||j==11||(i+j==10&&i>=4)||(j-i==2&&i>=4))
+                {
+                    for(long d=1;d<=199999999;d++);
+                    System.out.print("*");
+                }
+                else
+                System.out.print(" ");
+            }
+            System.out.println();
+        }
+        break;
+        case 'X':
+         System.out.println();
+        for(int i=1;i<=11;i++)
+        {
+            for(int j=1;j<=11;j++)
+            {
+                if(i==j||i+j==12)
+                {
+                    for(long d=1;d<=199999999;d++);
+                    System.out.print("*");
+                }
+                else
+                System.out.print(" ");
+            }
+            System.out.println();
+        }
+        break;
+        case 'Y':
+        System.out.println();
+        for(int i=1;i<=9;i++)
+        {
+            for(int j=1;j<=11;j++)
+            {
+                if((i<=6&&(i==j||i+j==12)||(j==6&&(i==7||i==8||i==9))))
+                {
+                    for(long d=1;d<=199999999;d++);
+                    System.out.print("*");
+                }
+                else
+                System.out.print(" ");
+            }
+            System.out.println();
+        }
+        break;
+        case 'Z':
+            System.out.println();
+        for(int i=1;i<=11;i++)
+        {
+            for(int j=1;j<=11;j++)
+            {
+                if(i==1||i==11||i+j==12)
+                {
+                    for(long d=1;d<=199999999;d++);
+                    System.out.print("*");
+                }
+                else
+                System.out.print(" ");
+            }
+            System.out.println();
+        }
+        break;
+        default:
+            System.out.println();
+        }
+      }
+      
+    }
+}
